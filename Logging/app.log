@@ -1,0 +1,9 @@
+2025-08-14 23:30:11 - root - DEBUG - debug message
+2025-08-14 23:30:11 - root - INFO - info message
+2025-08-14 23:30:11 - root - WARNING - warning message
+2025-08-14 23:30:11 - root - ERROR - error message
+2025-08-14 23:30:11 - root - CRITICAL - critical message
+2025-08-14 23:30:24 - root - DEBUG - addition function is called
+2025-08-14 23:30:24 - root - DEBUG - addition operation is taking place
+2025-08-14 23:30:24 - root - DEBUG - addition done
+2025-08-14 23:32:26 - root - DEBUG - debug message
