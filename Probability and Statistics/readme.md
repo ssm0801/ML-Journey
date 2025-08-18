@@ -143,3 +143,48 @@ Used to draw Box plot
     - Cons : Wont be able to capture correlation properly for non linear data
   - Spearman Rank Correlation
     - rₛ = Cov(R(x),R(y)) / σ(R(x)).σ(R(y))
+
+## Probability
+
+It is about determining the likelihood of an event.
+Probability = Chance
+
+Probability of event = (Number of favorable outcomes) / (Total number of possible outcomes)
+
+## Mutual Exclusive Event
+
+Two events are mutual exclusive if they can not occur at same time.
+E.g. Toss a coin - cant get H and T at same time
+
+P(A or B) = P(A) + P(B)
+
+i.e Additive Rule for Mutual Exclusive Event
+
+## Non Mutual Exclusive Event
+
+Two events are non mutual exclusive if they can occur at same time.
+E.g. Drawing card from deck - you can get king or heart - possible to get both in form of king of hearts
+
+P(A or B) = P(A) + P(B) - P(A and B)
+
+i.e Additive Rule for Non Mutual Exclusive Event
+
+## Independent Event
+
+Two events are independent if they do not affect one another
+E.g. Toss a coin - first toss result wont afect the probability of second result
+
+P(A and B) = P(A) * P(B)
+
+i.e Multiplication Rule for Independent Event
+
+## Dependent Event
+
+Two events are dependent if and only if they affect each other
+E.g. Take a king card from deck and then quen card from the deck - After drawing kind card it will affect the probability of drawing the quen card
+
+P(A and B) = P(A) * P(B/A)
+
+i.e Multiplication Rule for Dependent Event
+
+Also called as Conditional Probability
