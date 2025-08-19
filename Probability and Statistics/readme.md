@@ -188,3 +188,49 @@ P(A and B) = P(A) * P(B/A)
 i.e Multiplication Rule for Dependent Event
 
 Also called as Conditional Probability
+
+## Probability Distribution Functions
+
+It descrives how probabilities are distributed over values of random variable
+
+- Probability Mass Function (PMF)
+- Cumulative Distribution Function (CDF)
+- Probability Density Function (PDF)
+
+## Probability Mass Function
+
+PMF give probability of each value in distribution.
+
+E.g. Rolling a dice
+X-axis = 1,2,3,4,5,6
+Y-axis = 1/6, 2/6, 3/6, 4/6, 5/6, 6/6
+So for all values its always 1/6
+
+## Cumulative Density Function
+
+Whereas CDF is cumulative (combine) of all probabilities till that point
+
+E.g. Rolling a dice
+X-axis = 1,2,3,4,5,6
+Y-axis = 1/6, 2/6, 3/6, 4/6, 5/6, 6/6
+Here P(x<3) = P(1) + P(2) + P(3)
+
+For
+x=1, y=1/6
+x=2, y=2/6
+and so on...
+
+## Probability Density Function
+
+From CDF, probability density (gradien/slope) of each point is calculated, and plotted on other graph as y-axis that is nothing but PDF
+
+PDF = Gradient of CDF
+
+E.g. Distrbution of ages
+So P(x<=40) = Area under the curve of PDF for x in [0,40]
+
+Properties:
+- Non negativity f(x)>=0 for all x
+- Total aread under PDF curve is 1
+  ∫ of -∞ to ∞ f(x).dx = 1
+- f(x) will change based on different distribution types
